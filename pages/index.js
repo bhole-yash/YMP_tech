@@ -11,7 +11,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    // Set launch date to July 1st, 2024
+    // Set launch date to July 1st, 2025
     const launchDate = new Date('2025-07-01T00:00:00').getTime();
 
     const timer = setInterval(() => {
