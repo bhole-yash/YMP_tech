@@ -1,0 +1,30 @@
+{
+  "name": "ymp_tech",
+  "version": "1.0.0",
+  "description": "Company launch website with countdown timer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy": "npm run build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhole-yash/YMP_tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhole-yash/YMP_tech/issues"
+  },
+  "homepage": "https://github.com/bhole-yash/YMP_tech#readme",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
