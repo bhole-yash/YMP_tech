@@ -26,5 +26,8 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.10"
   }
 }
