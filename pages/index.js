@@ -44,7 +44,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.logo}>
-          <img src="/logo.jpeg" alt="YMP Products Logo" width={200} height={200} />
+          <img src="/YMP_tech/logo.jpeg" alt="YMP Products Logo" width={200} height={200} />
         </div>
         
         <h1 className={styles.title}>

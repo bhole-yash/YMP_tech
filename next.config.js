@@ -6,6 +6,7 @@ const nextConfig = {
   },
   basePath: '/YMP_tech',
   assetPrefix: '/YMP_tech/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
